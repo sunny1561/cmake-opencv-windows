@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(opencv-tut-cmake VERSION 0.1.0)
+project(opencv-assignment VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
@@ -7,7 +7,7 @@ enable_testing()
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(opencv-tut-cmake main.cpp)
+add_executable(opencv-assignment main.cpp)
 
 target_link_libraries( ${PROJECT_NAME} ${OpenCV_LIBS} )
 
